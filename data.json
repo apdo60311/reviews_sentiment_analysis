@@ -1,0 +1,827 @@
+{
+  "status": "OK",
+  "request_id": "43de822b-d6de-4992-b023-fe3ea12726a8",
+  "parameters": {
+    "country": "US",
+    "price_range": "ALL",
+    "discount_range": "ALL",
+    "num_pages": 1
+  },
+  "data": {
+    "deals": [
+      {
+        "deal_id": "6f4648e2",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "PlayStation\u00ae5 Digital Edition (slim)",
+        "deal_photo": "https://m.media-amazon.com/images/I/51fM0CKG+HL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/PlayStation%C2%AE5-Digital-slim-PlayStation-5/dp/B0CL5KNB9M",
+        "canonical_deal_url": "https://www.amazon.com/deal/6f4648e2",
+        "deal_starts_at": "2024-11-22T08:00:00.000Z",
+        "deal_ends_at": "2024-12-22T07:59:59.000Z",
+        "deal_price": {
+          "amount": "374.0",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "449.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 17,
+        "savings_amount": {
+          "amount": "75.99",
+          "currency": "USD"
+        },
+        "deal_badge": "17% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0CL5KNB9M"
+      },
+      {
+        "deal_id": "0848ad09",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "All-new Amazon Kindle Paperwhite (16 GB) \u2013 Our fastest Kindle ever, with new 7\" glare-free display and weeks of battery life \u2013 Black",
+        "deal_photo": "https://m.media-amazon.com/images/I/61MdbBO+SEL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/All-new-Amazon-Kindle-Paperwhite-glare-free/dp/B0CFPJYX7P",
+        "canonical_deal_url": "https://www.amazon.com/deal/0848ad09",
+        "deal_starts_at": "2024-12-09T17:00:00.000Z",
+        "deal_ends_at": "2024-12-23T17:00:00.000Z",
+        "deal_price": {
+          "amount": "134.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "159.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 16,
+        "savings_amount": {
+          "amount": "25.0",
+          "currency": "USD"
+        },
+        "deal_badge": "16% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0CFPJYX7P"
+      },
+      {
+        "deal_id": "abe7a974",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Dyson Airwrap",
+        "deal_photo": "https://m.media-amazon.com/images/I/61eMVXinS+L.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Dyson-AirwrapTM-Complete-multi-styler-Strawberry/dp/B0D6VGWTYW",
+        "canonical_deal_url": "https://www.amazon.com/deal/abe7a974",
+        "deal_starts_at": "2024-12-04T20:00:00.000Z",
+        "deal_ends_at": "2024-12-15T07:59:59.000Z",
+        "deal_price": {
+          "amount": "489.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "599.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 18,
+        "savings_amount": {
+          "amount": "110.0",
+          "currency": "USD"
+        },
+        "deal_badge": "18% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0D6VGWTYW"
+      },
+      {
+        "deal_id": "adc0296b",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Samsung Galaxy Tab A9+ Tablet 11\u201d 64GB Android Tablet, Big Screen, Quad Speakers, Upgraded Chipset, Multi Window Display, Slim, Light, Durable Design, US Version, 2024, Graphite",
+        "deal_photo": "https://m.media-amazon.com/images/I/61d46oYQgdL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/SAMSUNG-Android-Speakers-Upgraded-Graphite/dp/B0CLF3VPMV",
+        "canonical_deal_url": "https://www.amazon.com/deal/adc0296b",
+        "deal_starts_at": "2024-12-03T08:00:00.000Z",
+        "deal_ends_at": "2024-12-30T07:59:59.000Z",
+        "deal_price": {
+          "amount": "149.0",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "219.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 32,
+        "savings_amount": {
+          "amount": "70.99",
+          "currency": "USD"
+        },
+        "deal_badge": "32% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0CLF3VPMV"
+      },
+      {
+        "deal_id": "8338ffa1",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Amazon Fire HD 10 tablet (newest model) built for relaxation, 10.1\" vibrant Full HD screen, octa-core processor, 3 GB RAM, 32 GB, Black",
+        "deal_photo": "https://m.media-amazon.com/images/I/71t3j00C-yL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Amazon_Fire_HD_10/dp/B0BHZT5S12",
+        "canonical_deal_url": "https://www.amazon.com/deal/8338ffa1",
+        "deal_starts_at": "2024-12-04T08:00:00.000Z",
+        "deal_ends_at": "2024-12-25T07:59:59.000Z",
+        "deal_price": {
+          "amount": "74.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "139.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 46,
+        "savings_amount": {
+          "amount": "65.0",
+          "currency": "USD"
+        },
+        "deal_badge": "46% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0BHZT5S12"
+      },
+      {
+        "deal_id": "a307a79c",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "All-new Ring Battery Doorbell, Head-to-Toe Video, Live View with Two-Way Talk, and Motion Detection & Alerts (2024 release), Satin Nickel",
+        "deal_photo": "https://m.media-amazon.com/images/I/61vE894jVGL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Ring-Battery-Doorbell-Head-to-Toe-Video-Satin-Nickel/dp/B0BZWRSRWV",
+        "canonical_deal_url": "https://www.amazon.com/deal/a307a79c",
+        "deal_starts_at": "2024-12-06T05:00:00.000Z",
+        "deal_ends_at": "2024-12-25T05:00:00.000Z",
+        "deal_price": {
+          "amount": "59.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "99.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 40,
+        "savings_amount": {
+          "amount": "40.0",
+          "currency": "USD"
+        },
+        "deal_badge": "40% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0BZWRSRWV"
+      },
+      {
+        "deal_id": "a466311c",
+        "deal_type": "LIGHTNING_DEAL",
+        "deal_title": "GAP Options (Multibrand) Gift Card",
+        "deal_photo": "https://m.media-amazon.com/images/I/51hMWjjPWDL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/GAP-Options-Multibrand-Gift-Card/dp/B0D4M27D13",
+        "canonical_deal_url": "https://www.amazon.com/deal/a466311c",
+        "deal_starts_at": "2024-12-13T08:30:00.000Z",
+        "deal_ends_at": "2024-12-14T07:45:00.000Z",
+        "deal_price": {
+          "amount": "39.0",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "50.0",
+          "currency": "USD"
+        },
+        "savings_percentage": 22,
+        "savings_amount": {
+          "amount": "11.0",
+          "currency": "USD"
+        },
+        "deal_badge": "22% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0D4M27D13"
+      },
+      {
+        "deal_id": "a8d2b6be",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Amazon Echo Show 8 (newest model), With Spatial Audio, Smart Home Hub, and Alexa, Charcoal",
+        "deal_photo": "https://m.media-amazon.com/images/I/51B0KzSAh2L.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/All-New-Echo-Show-8/dp/B0BLS3Y632",
+        "canonical_deal_url": "https://www.amazon.com/deal/a8d2b6be",
+        "deal_starts_at": "2024-12-10T17:00:00.000Z",
+        "deal_ends_at": "2024-12-23T16:55:00.000Z",
+        "deal_price": {
+          "amount": "84.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "149.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 43,
+        "savings_amount": {
+          "amount": "65.0",
+          "currency": "USD"
+        },
+        "deal_badge": "43% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0BLS3Y632"
+      },
+      {
+        "deal_id": "b35657c2",
+        "deal_type": "DEAL_OF_THE_DAY",
+        "deal_title": "AncestryDNA + Traits Genetic Test Kit: Personalized Genetic Traits, DNA Ethnicity Test, Origins & Ethnicities, Complete DNA Test, Ancestry Reports",
+        "deal_photo": "https://m.media-amazon.com/images/I/617G6M7a3OL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/AncestryDNA-Genetic-Testing-Ethnicity-Traits/dp/B07J1FZQBC",
+        "canonical_deal_url": "https://www.amazon.com/deal/b35657c2",
+        "deal_starts_at": "2024-12-09T08:00:00.000Z",
+        "deal_ends_at": "2024-12-17T07:45:00.000Z",
+        "deal_price": {
+          "amount": "39.0",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "119.0",
+          "currency": "USD"
+        },
+        "savings_percentage": 67,
+        "savings_amount": {
+          "amount": "80.0",
+          "currency": "USD"
+        },
+        "deal_badge": "67% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B07J1FZQBC"
+      },
+      {
+        "deal_id": "38919d9d",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "BISSELL Little Green Multi-Purpose Portable Carpet and Upholstery Cleaner, Car and Auto Detailer, with Exclusive Specialty Tools, Green, 1400B",
+        "deal_photo": "https://m.media-amazon.com/images/I/71ViuqAudAL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Bissell-Multi-Purpose-Portable-Upholstery-1400B/dp/B0016HF5GK",
+        "canonical_deal_url": "https://www.amazon.com/deal/38919d9d",
+        "deal_starts_at": "2024-12-10T01:00:00.000Z",
+        "deal_ends_at": "2024-12-19T07:59:59.000Z",
+        "deal_price": {
+          "amount": "81.49",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "123.59",
+          "currency": "USD"
+        },
+        "savings_percentage": 34,
+        "savings_amount": {
+          "amount": "42.1",
+          "currency": "USD"
+        },
+        "deal_badge": "34% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0016HF5GK"
+      },
+      {
+        "deal_id": "a32e9b4e",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Amazon Echo Dot (newest model), With bigger vibrant sound, helpful routines and Alexa, Charcoal",
+        "deal_photo": "https://m.media-amazon.com/images/I/710exCeNPJL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Amazon-vibrant-helpful-routines-Charcoal/dp/B09B8V1LZ3",
+        "canonical_deal_url": "https://www.amazon.com/deal/a32e9b4e",
+        "deal_starts_at": "2024-12-11T08:05:00.000Z",
+        "deal_ends_at": "2024-12-25T07:59:59.000Z",
+        "deal_price": {
+          "amount": "22.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "49.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 54,
+        "savings_amount": {
+          "amount": "27.0",
+          "currency": "USD"
+        },
+        "deal_badge": "54% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B09B8V1LZ3"
+      },
+      {
+        "deal_id": "a8d2b6be",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Amazon Echo Show 5 (newest model), Smart display with 2x the bass and clearer sound, Charcoal",
+        "deal_photo": "https://m.media-amazon.com/images/I/51CYzU8PL4L.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/All-new-Echo-Show-5/dp/B09B2SBHQK",
+        "canonical_deal_url": "https://www.amazon.com/deal/a8d2b6be",
+        "deal_starts_at": "2024-12-10T17:00:00.000Z",
+        "deal_ends_at": "2024-12-23T16:55:00.000Z",
+        "deal_price": {
+          "amount": "44.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "89.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 50,
+        "savings_amount": {
+          "amount": "45.0",
+          "currency": "USD"
+        },
+        "deal_badge": "50% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B09B2SBHQK"
+      },
+      {
+        "deal_id": "8338ffa1",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Amazon Fire 7 Kids tablet (newest model) ages 3-7. Top-selling 7\" kids tablet on Amazon. Includes ad-free and exclusive content, easy parental controls, 10-hr battery, 16 GB, Purple",
+        "deal_photo": "https://m.media-amazon.com/images/I/61WetyPv-SL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Amazon-Fire-Kids-tablet-Top-selling/dp/B0BL8WSCH3",
+        "canonical_deal_url": "https://www.amazon.com/deal/8338ffa1",
+        "deal_starts_at": "2024-12-04T08:00:00.000Z",
+        "deal_ends_at": "2024-12-25T07:59:59.000Z",
+        "deal_price": {
+          "amount": "54.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "109.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 50,
+        "savings_amount": {
+          "amount": "55.0",
+          "currency": "USD"
+        },
+        "deal_badge": "50% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0BL8WSCH3"
+      },
+      {
+        "deal_id": "67aa29f3",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Est\u00e9e Lauder Double Wear Stay-in-Place 24-Hour Long-Wear Matte Foundation Makeup, 1 Fl Oz",
+        "deal_photo": "https://m.media-amazon.com/images/I/61opvdWNq0L.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Est%C3%A9e-Lauder-24-Hour-Long-Wear-Foundation/dp/B0009TRBCM",
+        "canonical_deal_url": "https://www.amazon.com/deal/67aa29f3",
+        "deal_starts_at": "2024-12-13T08:00:00.000Z",
+        "deal_ends_at": "2024-12-14T07:59:59.000Z",
+        "deal_price": {
+          "amount": "36.4",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "52.0",
+          "currency": "USD"
+        },
+        "savings_percentage": 30,
+        "savings_amount": {
+          "amount": "15.6",
+          "currency": "USD"
+        },
+        "deal_badge": "30% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0009TRBCM"
+      },
+      {
+        "deal_id": "61608ad8",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Shark AI Ultra Voice Control Robot Vacuum with Matrix Clean Navigation, Home Mapping, 60-Day Capacity, Self-Empty Base for Homes with Pets, Carpet & Hard Floors (Silver/Black)",
+        "deal_photo": "https://m.media-amazon.com/images/I/61yQ2hur-PL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Shark-AV2511AE-Self-Empty-Capacity-Navigation/dp/B09T4YZGQR",
+        "canonical_deal_url": "https://www.amazon.com/deal/61608ad8",
+        "deal_starts_at": "2024-12-06T08:00:00.000Z",
+        "deal_ends_at": "2024-12-16T07:59:59.000Z",
+        "deal_price": {
+          "amount": "299.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "599.0",
+          "currency": "USD"
+        },
+        "savings_percentage": 50,
+        "savings_amount": {
+          "amount": "299.01",
+          "currency": "USD"
+        },
+        "deal_badge": "50% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B09T4YZGQR"
+      },
+      {
+        "deal_id": "945ef227",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Breville BES870XL Espresso Machine, One Size, Brushed Stainless Steel",
+        "deal_photo": "https://m.media-amazon.com/images/I/71BvCt6eAFL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Breville-BES870XL-Barista-Express-Espresso/dp/B00CH9QWOU",
+        "canonical_deal_url": "https://www.amazon.com/deal/945ef227",
+        "deal_starts_at": "2024-11-27T05:00:00.000Z",
+        "deal_ends_at": "2024-12-17T07:59:59.000Z",
+        "deal_price": {
+          "amount": "549.95",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "749.95",
+          "currency": "USD"
+        },
+        "savings_percentage": 27,
+        "savings_amount": {
+          "amount": "200.0",
+          "currency": "USD"
+        },
+        "deal_badge": "27% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B00CH9QWOU"
+      },
+      {
+        "deal_id": "56d98a93",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "LEGO Icons Poinsettia Building Set - Artificial Flowers Christmas Decoration & Centerpieces for Table, Adults Ages 18+ - Gift Ideas for Mom, Dad, & Significant Other - 10370",
+        "deal_photo": "https://m.media-amazon.com/images/I/71KIZd8eHqL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/LEGO-Poinsettia-Centerpiece-Decoration-Collection/dp/B0CYM2Y154",
+        "canonical_deal_url": "https://www.amazon.com/deal/56d98a93",
+        "deal_starts_at": "2024-12-04T23:00:00.000Z",
+        "deal_ends_at": "2024-12-22T07:59:59.000Z",
+        "deal_price": {
+          "amount": "34.98",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "49.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 30,
+        "savings_amount": {
+          "amount": "15.01",
+          "currency": "USD"
+        },
+        "deal_badge": "30% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0CYM2Y154"
+      },
+      {
+        "deal_id": "314ac712",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Amazon Fire TV Stick 4K (newest model) with AI-powered Fire TV Search, Wi-Fi 6, stream over 1.5 million movies and shows, free & live TV",
+        "deal_photo": "https://m.media-amazon.com/images/I/51s-dIOI5zL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Amazon-Fire-TV-Stick-4K-streaming-device/dp/B0CJM1GNFQ",
+        "canonical_deal_url": "https://www.amazon.com/deal/314ac712",
+        "deal_starts_at": "2024-12-05T16:00:00.000Z",
+        "deal_ends_at": "2024-12-25T07:59:59.000Z",
+        "deal_price": {
+          "amount": "27.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "49.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 44,
+        "savings_amount": {
+          "amount": "22.0",
+          "currency": "USD"
+        },
+        "deal_badge": "44% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0CJM1GNFQ"
+      },
+      {
+        "deal_id": "be7b60f1",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "LEVOIT Cordless Vacuum Cleaner, Stick Vac with Tangle-Resistant Design, Up to 50 Minutes, Powerful Suction, Rechargeable, Lightweight, and Versatile for Carpet, Hard Floor, Pet Hair, LVAC-200",
+        "deal_photo": "https://m.media-amazon.com/images/I/71iS-sWLrNL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/LEVOIT-Tangle-Resistant-Rechargeable-Lightweight-Versatile/dp/B0CB6B2JWG",
+        "canonical_deal_url": "https://www.amazon.com/deal/be7b60f1",
+        "deal_starts_at": "2024-12-11T08:00:00.000Z",
+        "deal_ends_at": "2024-12-18T07:59:59.000Z",
+        "deal_price": {
+          "amount": "149.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "199.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 25,
+        "savings_amount": {
+          "amount": "50.0",
+          "currency": "USD"
+        },
+        "deal_badge": "25% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0CB6B2JWG"
+      },
+      {
+        "deal_id": "e0c0b5eb",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "DEWALT 20V MAX Cordless Drill and Impact Driver, Power Tool Combo Kit with 2 Batteries and Charger (DCK240C2)",
+        "deal_photo": "https://m.media-amazon.com/images/I/81+vTBpIB9L.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/DEWALT-DCK240C2-Lithium-Driver-Impact/dp/B00IJ0ALYS",
+        "canonical_deal_url": "https://www.amazon.com/deal/e0c0b5eb",
+        "deal_starts_at": "2024-11-30T08:00:00.000Z",
+        "deal_ends_at": "2024-12-29T07:59:59.000Z",
+        "deal_price": {
+          "amount": "129.0",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "239.0",
+          "currency": "USD"
+        },
+        "savings_percentage": 46,
+        "savings_amount": {
+          "amount": "110.0",
+          "currency": "USD"
+        },
+        "deal_badge": "46% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B00IJ0ALYS"
+      },
+      {
+        "deal_id": "8338ffa1",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Amazon Fire Max 11 tablet (newest model) vivid 11\u201d display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray",
+        "deal_photo": "https://m.media-amazon.com/images/I/71wk6xXIzPL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Amazon-powerful-display-octa-core-processor/dp/B0B1VQ1ZQY",
+        "canonical_deal_url": "https://www.amazon.com/deal/8338ffa1",
+        "deal_starts_at": "2024-12-04T08:00:00.000Z",
+        "deal_ends_at": "2024-12-25T07:59:59.000Z",
+        "deal_price": {
+          "amount": "139.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "229.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 39,
+        "savings_amount": {
+          "amount": "90.0",
+          "currency": "USD"
+        },
+        "deal_badge": "39% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0B1VQ1ZQY"
+      },
+      {
+        "deal_id": "8338ffa1",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Amazon Fire 10 HD Kids tablet (newest model) ages 3-7 | Bright 10.1\" HD screen with included ad-free and exclusive content, robust parental controls, 13-hr battery, 32 GB, Blue",
+        "deal_photo": "https://m.media-amazon.com/images/I/71Ke4ihMhzL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Amazon_Fire_HD_10_Kids/dp/B0BL5SZ3VV",
+        "canonical_deal_url": "https://www.amazon.com/deal/8338ffa1",
+        "deal_starts_at": "2024-12-04T08:00:00.000Z",
+        "deal_ends_at": "2024-12-25T07:59:59.000Z",
+        "deal_price": {
+          "amount": "109.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "189.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 42,
+        "savings_amount": {
+          "amount": "80.0",
+          "currency": "USD"
+        },
+        "deal_badge": "42% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0BL5SZ3VV"
+      },
+      {
+        "deal_id": "40d2111f",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "JBL Go 3 - Portable Mini Bluetooth Speaker, big audio and punchy bass, IP67 waterproof and dustproof, 5 hours of playtime, speaker for home, outdoor and travel (Blue)",
+        "deal_photo": "https://m.media-amazon.com/images/I/81CW7tay9IL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/JBL-Bluetooth-Built-Waterproof-JBLGO3BLUAM/dp/B08KVZ6X3P",
+        "canonical_deal_url": "https://www.amazon.com/deal/40d2111f",
+        "deal_starts_at": "2024-12-08T05:00:00.000Z",
+        "deal_ends_at": "2025-01-05T07:59:59.000Z",
+        "deal_price": {
+          "amount": "29.95",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "39.95",
+          "currency": "USD"
+        },
+        "savings_percentage": 25,
+        "savings_amount": {
+          "amount": "10.0",
+          "currency": "USD"
+        },
+        "deal_badge": "25% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B08KVZ6X3P"
+      },
+      {
+        "deal_id": "a32e9b4e",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "All-new Amazon Echo Spot (newest model), Great for nightstands, offices and kitchens, Smart alarm clock with Alexa and no visual ads, Black",
+        "deal_photo": "https://m.media-amazon.com/images/I/61TuF2ElKgL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/All-new-Amazon-Echo-Spot-2024-release-Smart-alarm-clock-with-vibrant-sound-Alexa-Black/dp/B0BFC7WQ6R",
+        "canonical_deal_url": "https://www.amazon.com/deal/a32e9b4e",
+        "deal_starts_at": "2024-12-11T08:05:00.000Z",
+        "deal_ends_at": "2024-12-25T07:59:59.000Z",
+        "deal_price": {
+          "amount": "44.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "79.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 44,
+        "savings_amount": {
+          "amount": "35.0",
+          "currency": "USD"
+        },
+        "deal_badge": "44% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0BFC7WQ6R"
+      },
+      {
+        "deal_id": "8673ba5a",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Crock-Pot 20-Ounce Electric Lunch Box, Portable Food Warmer, Faded Blue, Perfect for Travel, Car, On-the-Go, Keeps Food Warm, Spill-Free, Dishwasher-Safe, Ideal Gift for Men and Women",
+        "deal_photo": "https://m.media-amazon.com/images/I/71I-a78jkOL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Crockpot-Electric-Portable-Warmer-20-Ounce/dp/B09BDG5RP3",
+        "canonical_deal_url": "https://www.amazon.com/deal/8673ba5a",
+        "deal_starts_at": "2024-12-09T08:00:00.000Z",
+        "deal_ends_at": "2024-12-23T07:59:59.000Z",
+        "deal_price": {
+          "amount": "34.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "44.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 22,
+        "savings_amount": {
+          "amount": "10.0",
+          "currency": "USD"
+        },
+        "deal_badge": "22% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B09BDG5RP3"
+      },
+      {
+        "deal_id": "e58abfa3",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Oral-B iO Deep Clean Rechargeable Electric Powered Toothbrush, Black with iO Series 3 Limited, 2 Brush Heads and Travel Case - Pressure Sensor to Protect Gums - 3 Cleaning Settings - 2 Minute Timer",
+        "deal_photo": "https://m.media-amazon.com/images/I/71k+Kxu6pOL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Oral-B-iO-Electric-Toothbrush-Rechargeable/dp/B0B5HRWH1S",
+        "canonical_deal_url": "https://www.amazon.com/deal/e58abfa3",
+        "deal_starts_at": "2024-12-08T08:00:00.000Z",
+        "deal_ends_at": "2024-12-22T07:59:59.000Z",
+        "deal_price": {
+          "amount": "59.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "99.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 40,
+        "savings_amount": {
+          "amount": "40.0",
+          "currency": "USD"
+        },
+        "deal_badge": "40% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0B5HRWH1S"
+      },
+      {
+        "deal_id": "d34081df",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "LG C3 Series 65-Inch Class OLED evo 4K Processor Smart Flat Screen TV for Gaming with Magic Remote AI-Powered OLED65C3PUA, 2023 with Alexa Built-in",
+        "deal_photo": "https://m.media-amazon.com/images/I/71ReKg-3YrL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/LG-65-Inch-Processor-AI-Powered-OLED65C3PUA/dp/B0BVXDPZP3",
+        "canonical_deal_url": "https://www.amazon.com/deal/d34081df",
+        "deal_starts_at": "2024-12-09T08:00:00.000Z",
+        "deal_ends_at": "2024-12-16T07:59:59.000Z",
+        "deal_price": {
+          "amount": "1196.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "1499.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 20,
+        "savings_amount": {
+          "amount": "303.0",
+          "currency": "USD"
+        },
+        "deal_badge": "20% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0BVXDPZP3"
+      },
+      {
+        "deal_id": "80703cf8",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Blink Outdoor 4 [Newest Model] - Wireless Outdoor/Indoor Home Security & Pet Camera(s) with 2-year battery life, enhanced motion detection, and easy setup - 3 camera system",
+        "deal_photo": "https://m.media-amazon.com/images/I/41PtM0usvoL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Blink-Outdoor-4th-Gen-3-Camera/dp/B0B1N5FK48",
+        "canonical_deal_url": "https://www.amazon.com/deal/80703cf8",
+        "deal_starts_at": "2024-12-10T05:00:00.000Z",
+        "deal_ends_at": "2024-12-25T05:00:00.000Z",
+        "deal_price": {
+          "amount": "129.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "259.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 50,
+        "savings_amount": {
+          "amount": "130.0",
+          "currency": "USD"
+        },
+        "deal_badge": "50% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0B1N5FK48"
+      },
+      {
+        "deal_id": "8338ffa1",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "New Amazon Fire HD 8 Kids Pro tablet, ages 6-12. Bright 8\" HD screen, includes ad-free content, parental controls, 13-hr battery, slim case for older kids, 32GB, Discovery (2024 release)",
+        "deal_photo": "https://m.media-amazon.com/images/I/71sCg5WMW1L.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Amazon-ad-free-content-parental-controls/dp/B0CVDV2WS9",
+        "canonical_deal_url": "https://www.amazon.com/deal/8338ffa1",
+        "deal_starts_at": "2024-12-04T08:00:00.000Z",
+        "deal_ends_at": "2024-12-25T07:59:59.000Z",
+        "deal_price": {
+          "amount": "79.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "149.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 47,
+        "savings_amount": {
+          "amount": "70.0",
+          "currency": "USD"
+        },
+        "deal_badge": "47% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0CVDV2WS9"
+      },
+      {
+        "deal_id": "77aada81",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Prepared Hero Emergency Fire Blanket - 1 Pack - Fire Suppression Blanket for Kitchen, 40\u201d x 40\u201d Fire Blanket for Home, Fiberglass Fire Blanket",
+        "deal_photo": "https://m.media-amazon.com/images/I/817U5N6rypL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Prepared-Hero-Emergency-Fire-Blanket/dp/B08TRTZS1T",
+        "canonical_deal_url": "https://www.amazon.com/deal/77aada81",
+        "deal_starts_at": "2024-12-09T08:00:00.000Z",
+        "deal_ends_at": "2024-12-16T07:45:00.000Z",
+        "deal_price": {
+          "amount": "20.79",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "29.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 31,
+        "savings_amount": {
+          "amount": "9.2",
+          "currency": "USD"
+        },
+        "deal_badge": "31% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B08TRTZS1T"
+      }
+    ],
+    "total_deals": 10000,
+    "country": "US",
+    "domain": "www.amazon.com"
+  }
+}
