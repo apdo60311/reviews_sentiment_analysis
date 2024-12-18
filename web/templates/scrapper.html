@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Scraper</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">Web Content Scraper</h2>
+        <form action="/scraper" method="POST">
+            <div class="form-group">
+                <label for="url">Enter URL:</label>
+                <input type="url" class="form-control" id="url" name="url" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Scrape</button>
+        </form>
+
+        {% if results %}
+        <div class="mt-5">
+            <h3>Scraped Comments/Reviews with Sentiment Analysis</h3>
+            <div class="list-group">
+                {% for item in results %}
+                <div class="list-group-item">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="mb-1">{{ item.comment }}</p>
+                        <span class="badge {% if item.sentiment == 'Positive' %}badge-success
+                                         {% elif item.sentiment == 'Negative' %}badge-danger
+                                         {% else %}badge-warning{% endif %}">
+                            {{ item.sentiment }}
+                        </span>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if error %}
+        <div class="alert alert-danger mt-3" role="alert">
+            {{ error }}
+        </div>
+        {% endif %}
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

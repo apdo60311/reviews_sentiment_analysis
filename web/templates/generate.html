@@ -1,0 +1,96 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+      <title>Text Generator</title>
+      <style>
+          body {
+              font-family: Arial, sans-serif;
+              max-width: 800px;
+              margin: 0 auto;
+              padding: 20px;
+              background-color: #f5f5f5;
+          }
+          .container {
+              background-color: white;
+              border-radius: 10px;
+              padding: 20px;
+              box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+          }
+          .output-box {
+              min-height: 200px;
+              border: 1px solid #ddd;
+              padding: 15px;
+              margin-bottom: 20px;
+              border-radius: 5px;
+              background-color: #f0f0f0;
+          }
+          .input-container {
+              display: flex;
+              gap: 10px;
+          }
+          textarea {
+              flex-grow: 1;
+              padding: 10px;
+              border: 1px solid #ddd;
+              border-radius: 5px;
+              resize: none;
+              height: 50px;
+          }
+          button {
+              padding: 10px 20px;
+              background-color: #10a37f;
+              color: white;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+              transition: all 0.3s ease;
+          }
+          button:hover {
+              background-color: #0d8a6c;
+          }
+          @keyframes spin {
+              0% { transform: rotate(0deg); }
+              100% { transform: rotate(360deg); }
+          }
+          .generating {
+              position: relative;
+              pointer-events: none;
+              opacity: 0.7;
+          }
+          .generating span {
+              visibility: hidden;
+          }
+          .generating::after {
+              content: '';
+              position: absolute;
+              width: 20px;
+              height: 20px;
+              top: 50%;
+              left: 50%;
+              margin: -10px 0 0 -10px;
+              border: 2px solid transparent;
+              border-top-color: white;
+              border-radius: 50%;
+              animation: spin 1s linear infinite;
+          }
+      </style>
+  </head>
+  <body>
+      <div class="container">
+          <h1>Text Generator</h1>
+          <div class="output-box">
+              {% if generated_text %}
+                  {{ generated_text }}
+              {% endif %}
+          </div>
+          <form method="POST" action="/generate" onsubmit="document.querySelector('button[type=submit]').classList.add('generating')">
+              <div class="input-container">
+                  <textarea 
+                      name="prompt" 
+                      placeholder="Type your prompt here..."
+                      required>{{ prompt if prompt else default_prompt if default_prompt else '' }}</textarea>
+                  <button type="submit"><span>Generate</span></button>
+              </div>
+          </form>      </div>
+  </body>
+  </html>
