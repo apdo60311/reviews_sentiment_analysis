@@ -1,96 +1,254 @@
-  <!DOCTYPE html>
-  <html>
-  <head>
-      <title>Text Generator</title>
-      <style>
-          body {
-              font-family: Arial, sans-serif;
-              max-width: 800px;
-              margin: 0 auto;
-              padding: 20px;
-              background-color: #f5f5f5;
-          }
-          .container {
-              background-color: white;
-              border-radius: 10px;
-              padding: 20px;
-              box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-          }
-          .output-box {
-              min-height: 200px;
-              border: 1px solid #ddd;
-              padding: 15px;
-              margin-bottom: 20px;
-              border-radius: 5px;
-              background-color: #f0f0f0;
-          }
-          .input-container {
-              display: flex;
-              gap: 10px;
-          }
-          textarea {
-              flex-grow: 1;
-              padding: 10px;
-              border: 1px solid #ddd;
-              border-radius: 5px;
-              resize: none;
-              height: 50px;
-          }
-          button {
-              padding: 10px 20px;
-              background-color: #10a37f;
-              color: white;
-              border: none;
-              border-radius: 5px;
-              cursor: pointer;
-              transition: all 0.3s ease;
-          }
-          button:hover {
-              background-color: #0d8a6c;
-          }
-          @keyframes spin {
-              0% { transform: rotate(0deg); }
-              100% { transform: rotate(360deg); }
-          }
-          .generating {
-              position: relative;
-              pointer-events: none;
-              opacity: 0.7;
-          }
-          .generating span {
-              visibility: hidden;
-          }
-          .generating::after {
-              content: '';
-              position: absolute;
-              width: 20px;
-              height: 20px;
-              top: 50%;
-              left: 50%;
-              margin: -10px 0 0 -10px;
-              border: 2px solid transparent;
-              border-top-color: white;
-              border-radius: 50%;
-              animation: spin 1s linear infinite;
-          }
-      </style>
-  </head>
-  <body>
-      <div class="container">
-          <h1>Text Generator</h1>
-          <div class="output-box">
-              {% if generated_text %}
-                  {{ generated_text }}
-              {% endif %}
-          </div>
-          <form method="POST" action="/generate" onsubmit="document.querySelector('button[type=submit]').classList.add('generating')">
-              <div class="input-container">
-                  <textarea 
-                      name="prompt" 
-                      placeholder="Type your prompt here..."
-                      required>{{ prompt if prompt else default_prompt if default_prompt else '' }}</textarea>
-                  <button type="submit"><span>Generate</span></button>
-              </div>
-          </form>      </div>
-  </body>
-  </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Text Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <style>
+        :root {
+            --primary-gradient: linear-gradient(135deg, #10a37f 0%, #0d8a6c 100%);
+        }
+
+        body {
+            background: #0F2027;
+            background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+            color: #fff;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        .container {
+            max-width: 800px;
+            margin-top: 50px;
+            position: relative;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            border-radius: 20px;
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .output-box {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: #fff;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            min-height: 200px;
+            backdrop-filter: blur(5px);
+            transition: all 0.3s ease;
+        }
+
+        .output-box:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: #10a37f;
+        }
+
+        .form-control {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: #fff;
+            backdrop-filter: blur(5px);
+        }
+
+        .form-control:focus {
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            border-color: #10a37f;
+            box-shadow: 0 0 0 0.25rem rgba(16, 163, 127, 0.25);
+        }
+
+        .btn-generate {
+            background: var(--primary-gradient);
+            border: none;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+            padding: 12px 30px;
+            font-weight: 600;
+        }
+
+        .btn-generate:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+
+        .loading {
+            display: none;
+            position: relative;
+        }
+
+        .loading .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-top: 4px solid #10a37f;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .type-animation {
+            border-right: 2px solid #10a37f;
+            white-space: nowrap;
+            overflow: hidden;
+            margin: 0 auto;
+            animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+        }
+
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+
+        @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: #10a37f }
+        }
+    </style>
+</head>
+<body>
+    <div id="particles-js" class="particles"></div>
+    <div class="container">
+        <div class="text-center mb-4 animate__animated animate__fadeInDown">
+            <h1 class="display-4">Advanced Text Generator</h1>
+            <p class="lead">Transform your ideas into compelling content</p>
+        </div>
+
+        <div class="card animate__animated animate__fadeInUp">
+            <div class="output-box" id="outputBox">
+                {% if generated_text %}
+                    <div class="type-animation">{{ generated_text }}</div>
+                {% else %}
+                    <div class="text-muted">Your generated text will appear here...</div>
+                {% endif %}
+            </div>
+
+            <form method="POST" action="/generate" id="generateForm">
+                <div class="mb-3">
+                    <label for="prompt" class="form-label">Enter your prompt:</label>
+                    <textarea 
+                        class="form-control" 
+                        id="prompt" 
+                        name="prompt" 
+                        rows="4" 
+                        placeholder="Type your prompt here..."
+                        required>{{ prompt if prompt else default_prompt if default_prompt else '' }}</textarea>
+                </div>
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-generate">
+                        <i class="bi bi-magic me-2"></i>Generate
+                    </button>
+                </div>
+            </form>
+
+            <div class="loading text-center" id="loadingSpinner">
+                <div class="spinner"></div>
+                <p>Generating your text...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        // Initialize particles.js
+        particlesJS('particles-js', {
+            particles: {
+                number: { value: 80, density: { enable: true, value_area: 800 } },
+                color: { value: '#ffffff' },
+                shape: { type: 'circle' },
+                opacity: { value: 0.5, random: false },
+                size: { value: 3, random: true },
+                line_linked: {
+                    enable: true,
+                    distance: 150,
+                    color: '#ffffff',
+                    opacity: 0.4,
+                    width: 1
+                },
+                move: {
+                    enable: true,
+                    speed: 2,
+                    direction: 'none',
+                    random: false,
+                    straight: false,
+                    out_mode: 'out',
+                    bounce: false,
+                }
+            },
+            interactivity: {
+                detect_on: 'canvas',
+                events: {
+                    onhover: { enable: true, mode: 'repulse' },
+                    onclick: { enable: true, mode: 'push' },
+                    resize: true
+                },
+            },
+            retina_detect: true
+        });
+
+        // Form handling
+        document.getElementById('generateForm').addEventListener('submit', function(e) {
+            const loadingSpinner = document.getElementById('loadingSpinner');
+            const outputBox = document.getElementById('outputBox');
+
+            loadingSpinner.style.display = 'block';
+            outputBox.style.opacity = '0.5';
+
+            gsap.from(loadingSpinner, {
+                duration: 0.5,
+                opacity: 0,
+                y: 20,
+                ease: 'power2.out'
+            });
+        });
+
+        // Animate elements on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            gsap.from('.card', {
+                duration: 1,
+                y: 30,
+                opacity: 0,
+                ease: 'power3.out',
+                delay: 0.2
+            });
+
+            gsap.from('.btn-generate', {
+                duration: 0.5,
+                scale: 0.9,
+                opacity: 0,
+                ease: 'back.out',
+                delay: 0.5
+            });
+        });
+    </script>
+</body>
+</html>
